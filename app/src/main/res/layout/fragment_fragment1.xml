@@ -6,6 +6,18 @@
     tools:context=".fragments.Fragment1"
     android:id="@+id/fragmentoVerde"
     android:background="@color/Verde">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VERDE"
+        android:textSize="48sp"
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
 
 
 </FrameLayout>

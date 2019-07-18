@@ -6,7 +6,17 @@
     tools:context=".fragments.Fragment2"
     android:id="@+id/fragmentoAzul"
     android:background="@color/Vermelho">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VERMELHO"
+            android:textSize="48sp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
 
 
 </FrameLayout>
